@@ -5,12 +5,12 @@
 }
 
 html, input, select, button {
-font-family: 'Inter', sans-serif;
-background-color:#09090B;
-color: #FAFAFA;
+  font-family: 'Inter', sans-serif;
+  background-color: #09090B;
+  color: #FAFAFA;
 }
 
-/*app */
+/* app */
 #app {
   padding: 40px 20px;
   max-width: 320px;
@@ -37,4 +37,23 @@ input, select, button {
   background-color: #09090B;
   border: 1px solid #27272A;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.field-wrapper:focus-within {
+  outline: 2px solid yellowgreen;
+}
+
+button {
+  margin-top: 12px;
+  border: none;
+  padding: 12px 20px;
+  background-color: #AFF445;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #132F00;
+  cursor: pointer;
 }
